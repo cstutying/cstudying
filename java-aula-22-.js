@@ -1,4 +1,4 @@
-let email = true;
+let email = false;
 let password = false;
 
 console.log(email && password);
