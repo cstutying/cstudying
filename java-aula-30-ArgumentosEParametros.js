@@ -8,7 +8,7 @@ function message(username) {
  console.log('Ola', username);
 }
 
-// PASSANDO O ARGUMENTO
+// PASSANDO O ARGUMENTO.
 message('Christian');
 message('Ana');
 
