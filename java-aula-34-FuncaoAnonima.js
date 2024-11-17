@@ -1,12 +1,12 @@
 // FUNÇÃO ANONIMA (FUNÇÃO QUE NÃO POSSUI NOME)
 
-// EXEMPL O1
+// EXEMPLO O1
 const showMessage1 = function () {
  return "Ola, Christian";
 };
 console.log(showMessage1());
 
-// EXEMPL O2
+// EXEMPLO O2
 const showMessage2 = function (name) {
  return "Ola, " + name;
 };
