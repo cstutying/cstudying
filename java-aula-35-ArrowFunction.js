@@ -1,5 +1,4 @@
 // ARROW FUNTION (FUNÇÃO DE SETA)
-
 const showMessage1 = () => {
  console.log("Ola");
 };
