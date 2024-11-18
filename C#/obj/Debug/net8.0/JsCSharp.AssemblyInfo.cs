@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JsCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+167987ab944f76e0a81225cbf6ca5bd738edcb77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cea1cd8b6f392439e51f00cfe28f05acfafb7f2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("JsCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JsCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
