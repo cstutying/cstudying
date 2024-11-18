@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/C#.csproj",
+      "projectUniqueName": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/CSharp/C#.csproj",
       "projectName": "C#",
-      "projectPath": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/C#.csproj",
+      "projectPath": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/CSharp/C#.csproj",
       "packagesPath": "/home/linux/.nuget/packages/",
-      "outputPath": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/obj/",
+      "outputPath": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/CSharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/linux/.nuget/NuGet/NuGet.Config"
