@@ -1,0 +1,15 @@
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/bin/Debug/net8.0/JsCSharp
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/bin/Debug/net8.0/JsCSharp.deps.json
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/bin/Debug/net8.0/JsCSharp.runtimeconfig.json
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/bin/Debug/net8.0/JsCSharp.dll
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/bin/Debug/net8.0/JsCSharp.pdb
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/obj/Debug/net8.0/JsCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/obj/Debug/net8.0/JsCSharp.AssemblyInfoInputs.cache
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/obj/Debug/net8.0/JsCSharp.AssemblyInfo.cs
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/obj/Debug/net8.0/JsCSharp.csproj.CoreCompileInputs.cache
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/obj/Debug/net8.0/JsCSharp.sourcelink.json
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/obj/Debug/net8.0/JsCSharp.dll
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/obj/Debug/net8.0/refint/JsCSharp.dll
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/obj/Debug/net8.0/JsCSharp.pdb
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/obj/Debug/net8.0/JsCSharp.genruntimeconfig.cache
+/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/C#/obj/Debug/net8.0/ref/JsCSharp.dll
