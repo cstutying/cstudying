@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("JsCSharp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50c28b00d725ad816ce23d2c4c1e92f62b17b446")]
-[assembly: System.Reflection.AssemblyProductAttribute("JsCSharp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("JsCSharp")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3d9950c6f1d7f734b7e971829c27856dc3b72a7")]
+[assembly: System.Reflection.AssemblyProductAttribute("C#")]
+[assembly: System.Reflection.AssemblyTitleAttribute("C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

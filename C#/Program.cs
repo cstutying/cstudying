@@ -1,1 +1,11 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using System;
+namespace MeuApp
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Ola Mundo");
+    }
+  }
+}
