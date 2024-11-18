@@ -11,4 +11,4 @@ console.log(-5);
 console.log(125.7); // NÃO SE USA VIRGULA
 
 // NAM - NOT A NUMBER (ISSO NÃO É UM NUMERO)
-console.log(12.5 / 'christin');
+console.log(12.5 / "christian");
