@@ -58,9 +58,14 @@ button {
  padding: 8px;
  list-style: none;
 }
+@media (max-width: 420px) {
+ form {
+  flex-direction: column;
+ }
+}
 .input-error,
 .input-error:focus {
- border: 1px solid red;
+ border-color: #e21a43;
 }
 .hide {
  display: none;
