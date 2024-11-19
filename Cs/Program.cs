@@ -1,5 +1,4 @@
 ﻿// IMPORTAÇÕES
-using System;
 
 namespace Cs
 {
@@ -9,9 +8,7 @@ namespace Cs
     // FUNÇÃO PRINCIPAL DO PROGRAMA
     static void Main(string[] args)
     {
-
-      var texto = "Ola!";
-      Console.WriteLine(texto);
+      int idade = 25;
     }
   }
 }
