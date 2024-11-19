@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/CSharp/C#.csproj": {}
+    "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/Cs/GettingStarted.csproj": {}
   },
   "projects": {
-    "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/CSharp/C#.csproj": {
+    "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/Cs/GettingStarted.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/CSharp/C#.csproj",
-        "projectName": "C#",
-        "projectPath": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/CSharp/C#.csproj",
+        "projectUniqueName": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/Cs/GettingStarted.csproj",
+        "projectName": "GettingStarted",
+        "projectPath": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/Cs/GettingStarted.csproj",
         "packagesPath": "/home/linux/.nuget/packages/",
-        "outputPath": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/CSharp/obj/",
+        "outputPath": "/home/linux/Documentos/Projetos/Curso/JsCSharp/CursoJsECSharpLogicaDaProgramacao-Aulas/JsCSharp/Cs/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/linux/.nuget/NuGet/NuGet.Config"
