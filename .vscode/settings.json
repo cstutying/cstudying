@@ -1,4 +1,9 @@
 {
-  "prettier.tabWidth": 1,
-  "cSpell.minWordLength": 4
+ "prettier.tabWidth": 1,
+ "cSpell.minWordLength": 4,
+ "cSpell.words": [
+  "divisao",
+  "multiplcacao",
+  "subtracao"
+]
 }
