@@ -1,14 +1,15 @@
-﻿// IMPORTAÇÕES
+﻿using System.Threading.Tasks;
 
 namespace Cs
 {
-  // CLASSE PRINCIPAL DO PROGRAMA
   class Program
   {
-    // FUNÇÃO PRINCIPAL DO PROGRAMA
     static void Main(string[] args)
     {
-      int idade = 25;
+
+
+      var texto = "Testando";
+      Console.WriteLine(texto);
     }
   }
 }
