@@ -4,10 +4,7 @@
   {
     static void Main(string[] args)
     {
-
-      // byte meuByte = 127;
-      var texto = "Testando";
-      Console.WriteLine(texto);
+      Console.WriteLine("ola Va");
     }
   }
 }
