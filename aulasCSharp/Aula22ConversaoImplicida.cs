@@ -1,4 +1,5 @@
-﻿// É COMUM PRESARMOS TRANSFORMAR UM DADO DE TIPO X PARA TIPO Y
+﻿// CONVERSÃO IMPLÍCITA
+// É COMUM PRESARMOS TRANSFORMAR UM DADO DE TIPO X PARA TIPO Y
 // Existem dois tipo de conversão, as implícitas e as explicitas
 // As implícitas são conversões que
 // Podem ser executas apenas com passagem de dados
