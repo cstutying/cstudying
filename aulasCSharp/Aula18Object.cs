@@ -4,12 +4,13 @@
     {
         static void Main(string[] args)
         {
-            object quantidade;
+            int idade = 25;
+            idade = 2.5;
 
-            // int quantidade = 0;
-            // var quantidade = 25;
-            // var idade = 25;
-            // idade = "Andre";
+            object quantidade;
+            quantidade = 1;
+            quantidade = 2.5;
+            quantidade = "teste";
 
             // object idade = 25; // SERA TODO TIPO DE OBJETO
             // object nome = "Andre"; // SERA TODO TIPO DE OBJETO
