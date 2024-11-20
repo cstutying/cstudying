@@ -1,15 +1,13 @@
-﻿using System.Threading.Tasks;
-
-namespace Cs
+﻿namespace Cs
 {
   class Program
   {
     static void Main(string[] args)
     {
 
-
-      var texto = "Testando";
-      Console.WriteLine(texto);
+      byte meuByte = 127;
+      // var texto = "Testando";
+      // Console.WriteLine(texto);
     }
   }
 }
