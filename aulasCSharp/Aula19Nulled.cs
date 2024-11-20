@@ -12,7 +12,7 @@ namespace Cs
             idade = null; // INICIOU COM NULL
             Console.WriteLine(idade); // VAI IMPRIMIR NADA 
             idade = 25; // VOLTOU COM 25
-            Console.WriteLine(idade); // VAI IMPRIMIR 25
+            Console.WriteLine(idade); // VAI IMPRIMIR 25 NA TELA
         }
     }
 }
