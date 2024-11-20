@@ -1,10 +1,10 @@
 ﻿namespace Cs
 {
-  class Program
+ class Program
+ {
+  static void Main(string[] args)
   {
-    static void Main(string[] args)
-    {
-      Console.WriteLine("ola Va");
-    }
+   Console.WriteLine("Hello, World!");
   }
+ }
 }

@@ -18,7 +18,7 @@ const guestsByClass = document.getElementsByClassName("guest");
 console.log(guestsByClass);
 
 // EXIBIR O PRIMEIRO ELEMENTO DA LISTA
-console.log(guestsByClass.item(0)); // É POSSIVEL USAR ESSA OPÇÃO 1
+console.log(guestsByClass.item(0)); // É POSSÍVEL USAR ESSA OPÇÃO 1
 console.log(guestsByClass[0]); // OU ESSA OPÇÃO 2
 
 // SELECIONAR LISTA DE ELEMENTO PELA TAG
