@@ -34,6 +34,12 @@ namespace Cs
       // x >= 0; // TRUE
 
       // Console.WriteLine(x);
+      // Console.WriteLine(x == 25);
+      // Console.WriteLine(x != 25);
+      // Console.WriteLine(x > 25);
+      Console.WriteLine(x < 25);
+      // Console.WriteLine(x >= 25);
+      // Console.WriteLine(x <= 25);
     }
   }
 }
