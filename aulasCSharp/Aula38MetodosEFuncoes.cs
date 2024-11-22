@@ -12,39 +12,25 @@ namespace Cs
 {
   class Program
   {
-    static void Main(string[] args)
+    static void Main(string[] args) // VOID EM C# SIGNIFICA VAZIO
     {
       // EXEMPLO 1
-      // INVOCAÇÃO DO MÉTODO
-      //   MeuMetodo("C# é legal!");
-      // }
-      // // DEFINIÇÃO DO MÉTODO
-      // static void MeuMetodo(string parametro) // VOID EM C# SIGNIFICA VAZIO
+      // DEFINIÇÃO DO MÉTODO
+      // RETORNA UMA STRING E RECEBE VÁRIOS PARÂMETROS
+      // static string RetornaNome(string nome, string sobrenome)
       // {
-      //   Console.WriteLine(parametro);
+      // RETORNA O NOME E SOBRENOME
+      //   return nome + " " + sobrenome;
+      // }
 
-      MeuMetodo();
-      string nome = retornaNome("Christian", "Douglas");
-      Console.WriteLine(nome);
+      // EXEMPLO 2
+      // INVOCAÇÃO DO MÉTODO
+      MeuMetodo("C# é legal!");
     }
-    // EXEMPLO 2
-    static void MeuMetodo()
+    // DEFINIÇÃO DO MÉTODO
+    static void MeuMetodo(string parametro)
     {
-      Console.WriteLine("C# é legal!");
-    }
-
-    static string retornaNome(
-      string nome,
-      string sobrenome,
-
-      // PARAMENTOS OPCIONAIS ABAIXO!
-      int idade = 26,
-      bool temFilhos = false,
-      double altura = 1.83
-      )
-
-    {
-      return nome + " " + sobrenome + " " + "tem" + " " + idade.ToString() + " " + "Anos" + " " + "Tem Filhos" + " " + temFilhos.ToString() + " " + "Altura" + " " + altura.ToString();
+      Console.WriteLine(parametro);
     }
   }
 }
