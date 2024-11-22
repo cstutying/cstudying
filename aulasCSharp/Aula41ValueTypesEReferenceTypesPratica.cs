@@ -8,7 +8,10 @@ namespace Cs
   {
     static void Main(string[] args)
     {
-
+      int x = 25;
+      int y = X;
+      Console.WriteLine(x);
+      Console.WriteLine(y);
     }
   }
 }
