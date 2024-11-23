@@ -1,4 +1,4 @@
-﻿// ENUMS
+﻿//
 
 using System; // PARA USAR O WriteLine DEVE USA O using system;
 
