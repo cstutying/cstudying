@@ -1,4 +1,4 @@
-// CRONOMETRO
+// STOPWATCH
 
 using System; // PARA USAR O WriteLine DEVE USA O using system;
 using System.Data;
