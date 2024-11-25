@@ -1,4 +1,4 @@
-﻿// 
+﻿// COMPARANDO STRINGS
 
 using System; // PARA USAR O WriteLine DEVE USA O using system;
 
@@ -8,7 +8,7 @@ namespace Cs
   {
     static void Main(string[] args)
     {
-
+      Console.WriteLine("Ola");
     }
   }
 }
