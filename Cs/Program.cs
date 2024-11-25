@@ -1,6 +1,6 @@
-﻿// INDICES
+﻿// MÉTODOS ADICIONAIS
 
-using System; // PARA USAR O WriteLine DEVE USA O using system;
+using System;
 
 namespace Cs
 {
@@ -12,4 +12,3 @@ namespace Cs
     }
   }
 }
-
