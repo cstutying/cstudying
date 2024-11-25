@@ -1,4 +1,4 @@
-﻿// MÉTODOS ADICIONAIS
+﻿// MANIPULANDO STRING
 
 using System;
 
