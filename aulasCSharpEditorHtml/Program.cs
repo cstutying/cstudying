@@ -8,7 +8,7 @@
 
 using System;
 
-namespace Cs
+namespace aulasCSharpEditorHtml
 {
   class Program
   {
