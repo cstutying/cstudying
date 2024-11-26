@@ -1,4 +1,4 @@
-﻿// DATAS
+﻿// OBTENDO OS VALORES DA DATA
 
 using System;
 
@@ -8,9 +8,7 @@ namespace Cs
   {
     static void Main(string[] args)
     {
-      Console.Clear();
-      // var data = new DateTime(); // DateTime É UM STRUCTS
-      var data = DateTime.Now; // DateTime.Now PEGA A DATA ATUAL(DE HOJE)
+      var data = new DateTime(2024, 11, 26, 8, 23, 14);
       Console.WriteLine(data);
     }
   }
