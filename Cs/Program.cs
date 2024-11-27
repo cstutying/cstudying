@@ -1,4 +1,4 @@
-﻿// COMPARANDO DATAS
+﻿// CULTURE INFO
 
 using System;
 
