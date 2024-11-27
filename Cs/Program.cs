@@ -1,4 +1,4 @@
-﻿// PADRÕES DE FORMATAÇÃO
+﻿// COMPARANDO DATAS
 
 using System;
 
