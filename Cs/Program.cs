@@ -1,4 +1,4 @@
-﻿// TIME ZONE
+﻿// TIME SPAN
 
 using System;
 
