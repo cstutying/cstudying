@@ -1,4 +1,4 @@
-﻿// TIPO PARA MOEDAS
+// TIPO PARA MOEDAS
 
 using System;
 
