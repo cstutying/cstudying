@@ -29,7 +29,7 @@ namespace Cs
       var timeSpanDiaHoraMinutoSegundoMilissegundo = new TimeSpan(15, 12, 8, 100);
       Console.WriteLine(timeSpanDiaHoraMinutoSegundoMilissegundo);
 
-      // ONDE É USADO O TIME SPAN? PRA CÁLCULOS AREA ARITMÉTICA E DATAS
+      // ONDE É USADO O TIME SPAN? PRA CÁLCULOS, AREA ARITMÉTICA E DATAS
       Console.WriteLine(timeSpanDiaHoraMinutoSegundo - timeSpanDiaHoraMinutoSegundo);
       Console.WriteLine(timeSpanDiaHoraMinutoSegundo.Days);
       Console.WriteLine(timeSpanDiaHoraMinutoSegundo.Add(new TimeSpan(12, 0, 0)));
