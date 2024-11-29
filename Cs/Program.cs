@@ -11,6 +11,5 @@ namespace Cs
             Console.Clear();
 
         }
-
     }
 }
