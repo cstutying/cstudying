@@ -1,4 +1,4 @@
-﻿// ALTERANDO VALORES
+﻿// EXCEPTIONS
 
 using System;
 
