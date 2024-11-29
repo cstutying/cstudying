@@ -1,4 +1,4 @@
-// FOR EACH
+// ALTERANDO VALORES
 
 using System;
 
@@ -10,15 +10,14 @@ namespace Cs
     {
       Console.Clear();
 
-      var funcionarios = new Funcionario[5];
-      funcionarios[0] = new Funcionario() { Id = 2579, Nome = "Douglas" };
+      var primeiro = new int[4];
+      var segundo = new int[4];
 
-      // FOREACH PARA CADA ITEM DO MEU ARRAY (PRIORIZAR USAR FOREACH)
-      foreach (var funcionario in funcionarios)
-      {
-        Console.WriteLine(funcionario.Id);
-        Console.WriteLine(funcionario.Nome);
-      }
+      // LEMBRANDO QUE ELES SÃO OBJETOS DE REFERENCIA E NAO OBJETOS DE VALOR
+      segundo[0] = primeiro[0];
+
+      primeiro[0] = 23;
+      Console.WriteLine(segundo[0]);
     }
   }
 

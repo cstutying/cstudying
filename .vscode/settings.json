@@ -1,6 +1,6 @@
 {
- "prettier.tabWidth": 1,
- "cSpell.minWordLength": 2,
+ "prettier.tabWidth": 2,
+ "cSpell.minWordLength": 4,
  "cSpell.words": [
   "divisao",
   "dolar",
