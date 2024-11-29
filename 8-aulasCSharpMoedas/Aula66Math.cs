@@ -10,9 +10,10 @@ namespace Cs
     {
       Console.Clear();
 
-      decimal valor = 10.25m;
-
-      Console.WriteLine(valor);
+      decimal valor = 10536.25m;
+      Console.WriteLine(Math.Round(valor)); //ARREDONDA OS NUMERO
+      Console.WriteLine(Math.Ceiling(valor)); //ARREDONDA SEMPRE PRA CIMA
+      Console.WriteLine(Math.Floor(valor)); //ARREDONDA SEMPRE PRA BAIXO
     }
   }
 }

@@ -10,9 +10,6 @@ namespace Cs
         {
             Console.Clear();
 
-            decimal valor = 10.25m;
-
-            Console.WriteLine(valor);
         }
     }
 }
