@@ -1,4 +1,4 @@
-﻿// PERCORRENDO O ARRAY
+﻿// FOR EACH
 
 using System;
 
