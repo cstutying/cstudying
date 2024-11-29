@@ -1,4 +1,4 @@
-﻿// FORMATANDO MOEDAS
+﻿// 
 
 using System;
 
@@ -8,7 +8,11 @@ namespace Cs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Clear();
+
+            decimal valor = 10.25m;
+
+            Console.WriteLine(valor);
         }
     }
 }
