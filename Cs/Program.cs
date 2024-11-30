@@ -1,4 +1,4 @@
-﻿// DISPARANDO EXCEÇÕES
+﻿// 
 
 using System;
 

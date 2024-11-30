@@ -1,4 +1,4 @@
-// DISPARANDO EXCEÇÕES
+// CUSTOM EXCEPTIONS
 
 using System;
 
@@ -12,21 +12,17 @@ namespace Cs
 
       try
       {
-        // Error: System.IndexOutOfRangeException
-        // for (var index = 0; index < 10; index++)
-        // {
-        //     Console.WriteLine(arr[index]);
-        // }
-
         Cadastrar("");
       }
+
       // SEMPRE VAI TRATAR OS ERRO DO MAIS ESPECIFICO PARA O MAIS GENÉRICO
       catch (IndexOutOfRangeException ex)
       {
         Console.WriteLine(ex.InnerException);
         Console.WriteLine(ex.Message);
-        Console.WriteLine("Não encontrei o índex na lista");
+        Console.WriteLine("Não encontrei o index na lista");
       }
+
       // (SE O ERRO ESTIVER FORA DO INDEX É EXCEÇÃO)
       catch (ArgumentNullException ex)
       {
@@ -34,7 +30,17 @@ namespace Cs
         Console.WriteLine(ex.Message);
         Console.WriteLine("Falha ao cadastrar o texto");
       }
-      // (SE DER ERRO AO SALVAR O ARQUIVO É GENÉRICA)
+
+      // EXCEÇÃO CUSTOMIZADA ":" EXCEPTION (LEMBRA-SE QUE É DA MAIS ESPECIFICA PARA MAIS GENÉRICA)
+      catch (MinhaException ex)
+      {
+        Console.WriteLine(ex.InnerException);
+        Console.WriteLine(ex.Message);
+        Console.WriteLine(ex.QuandoAconteceu);
+        Console.WriteLine("Exceção customizada");
+      }
+
+      // (SE DER ERRO AO SALVAR O ARQUIVO É GENÉRICO)
       catch (Exception ex)
       {
         Console.WriteLine(ex.InnerException);
@@ -45,13 +51,20 @@ namespace Cs
 
     private static void Cadastrar(string texto)
     {
-      //"IF" SIGNIFICA "SE"
+      // "IF" SIGNIFICA "SE"
       if (string.IsNullOrEmpty(texto))
-        //THROW SIGNIFICA ARREMESSAR / EXCEÇÃO / ANORMAL
-        // throw new Exception("O texto não pode ser nulo ou vazio");
+        throw new MinhaException(DateTime.Now);
+    }
 
-        // NÃÕ PRECISA SER NECESSARIAMENTE UMA EXCEPTION DE EXCEÇÃO TEM OUTRAS
-        throw new ArgumentNullException("O texto não pode ser nulo ou vazio");
+    // EXCEÇÃO CUSTOMIZADA ":" EXCEPTION (LEMBRA-SE QUE É DA MAIS ESPECIFICA PARA MAIS GENÉRICA)
+    public class MinhaException : Exception
+    {
+      public MinhaException(DateTime date)
+      {
+        QuandoAconteceu = date;
+      }
+
+      public DateTime QuandoAconteceu { get; set; }
     }
   }
 }
