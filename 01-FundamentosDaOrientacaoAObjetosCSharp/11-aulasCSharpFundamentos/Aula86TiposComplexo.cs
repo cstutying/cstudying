@@ -1,4 +1,4 @@
-// MODIFICADORES DE ACESSO
+// TIPOS COMPLEXOS
 
 using System;
 
