@@ -1,4 +1,4 @@
-﻿// 
+﻿// PARADIGMA ORIENTADO A OBJETOS
 
 using System;
 
