@@ -1,4 +1,4 @@
-// CUSTOM EXCEPTIONS
+// FINALLY
 
 using System;
 
@@ -12,7 +12,7 @@ namespace Cs
 
       try
       {
-        Cadastrar("");
+        Cadastrar("testando");
       }
 
       // SEMPRE VAI TRATAR OS ERRO DO MAIS ESPECIFICO PARA O MAIS GENÉRICO
@@ -24,7 +24,7 @@ namespace Cs
       }
 
       // (SE O ERRO ESTIVER FORA DO INDEX É EXCEÇÃO)
-      catch (ArgumentNullException ex)
+      catch (ArgumentException ex)
       {
         Console.WriteLine(ex.InnerException);
         Console.WriteLine(ex.Message);
@@ -37,7 +37,7 @@ namespace Cs
         Console.WriteLine(ex.InnerException);
         Console.WriteLine(ex.Message);
         Console.WriteLine(ex.QuandoAconteceu);
-        Console.WriteLine("Exceção customizada");
+        Console.WriteLine("Exceção Customizada");
       }
 
       // (SE DER ERRO AO SALVAR O ARQUIVO É GENÉRICO)
@@ -46,6 +46,11 @@ namespace Cs
         Console.WriteLine(ex.InnerException);
         Console.WriteLine(ex.Message);
         Console.WriteLine("Ops, algo deu errado!");
+      }
+      // FINALLY (FINALMENTE) EXECUTAR INDEPENDENTE SE DER CERTO OU ERRADO NOSSA APLICAÇÃO
+      finally
+      {
+        Console.WriteLine("Chegou ao fim!");
       }
     }
 
