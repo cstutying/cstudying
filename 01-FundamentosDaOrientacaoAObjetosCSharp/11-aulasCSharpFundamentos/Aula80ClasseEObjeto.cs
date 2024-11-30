@@ -1,0 +1,32 @@
+// CLASSE E OBJETO 
+// OBJETO
+// É COMPOSTO POR 3 ITENS
+// PROPRIEDADES (ALTURA, LARGURA, PROFUNDIDADE, PESO, COR SÃO AS CARACTERÍSTICAS)
+// MÉTODOS (REPRODUZIR, GRAVAR, AJUSTAR VOLUME, ROTACIONAR, ABRIR, FECHAR, CLICAR)
+// EVENTOS (AO COMEÇAR GRAVAR, AO CLICAR NO MOUSE, AO ABRIR A TAMPA, AO ENCHER A GARRAFA, )
+// E SEMPRE VAI SER UM TIPO DE REFERENCIA
+// CLASS (CLASSE)
+// ELA ARMAZENA SÓ O ENDEREÇO
+// É UM MOLDEM PARA O OBJETO
+// PARA CRIAR PARA UM NOVO CLIENTE
+// (STRUCT)
+// SÃO ESTRUTURA DE DADO SÓ QUE ELE ARMAZENA O VALOR EM SI
+
+using System;
+
+namespace Cs
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      var customer = new Customer();
+      customer.Name = "Teste";
+    }
+  }
+  class Customer
+  {
+    public string Name;
+  }
+
+}

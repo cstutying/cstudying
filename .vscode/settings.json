@@ -1,17 +1,18 @@
 {
- "prettier.tabWidth": 2,
- "cSpell.minWordLength": 4,
- "cSpell.words": [
-  "divisao",
-  "dolar",
-  "Dolar",
-  "funcionario",
-  "funcionarios",
-  "Metodo",
-  "multiplcacao",
-  "Multiplicacao",
-  "negacao",
-  "parametro",
-  "subtracao"
-]
+  "prettier.tabWidth": 2,
+  "cSpell.minWordLength": 4,
+  "cSpell.words": [
+    "Cartao",
+    "divisao",
+    "dolar",
+    "Dolar",
+    "funcionario",
+    "funcionarios",
+    "Metodo",
+    "multiplcacao",
+    "Multiplicacao",
+    "negacao",
+    "parametro",
+    "subtracao"
+  ]
 }
