@@ -14,10 +14,10 @@ namespace Cs
 
   class Pagamento
   {
-    // AS VARIÁVEIS QUE TEM SE TORNAM PROPRIEDADES
+    // AS VARIÁVEIS QUE TEM (SE TORNAM PROPRIEDADES)
     DateTime Vencimento;
 
-    // AS FUNÇÕES QUE TEM SE TORNAM MÉTODOS
+    // AS FUNÇÕES QUE TEM (SE TORNAM MÉTODOS)
     void Pagar()
     {
       ConsultarSaldoDoCartao("1231251");
