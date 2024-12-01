@@ -1,4 +1,4 @@
-﻿// MODIFICADORES DE ACESSO
+﻿// CLASSES ESTÁTICAS
 
 using System;
 
@@ -8,18 +8,26 @@ namespace Cs
     {
         static void Main(string[] args)
         {
-            var pagamento = new Pagamento();
+            using (var pagamento = new Pagamento())
+            {
+                Console.WriteLine("Processando o pagamento");
+            }
 
-            Console.WriteLine("Ola");
+            Console.WriteLine("Fim");
         }
     }
 
-    public class Pagamento // SE NÃO COLOCAR NADA A CLASS E CONSIDERADA PRIVADA
+    // TODAS CLASS SÃO CONSIDERADA TIPOS COMPLEXOS
+    public class Pagamento : IDisposable
     {
-        // AS VARIÁVEIS QUE TEM (SE TORNAM PROPRIEDADES)
-        DateTime Vencimento;
+        public Pagamento()
+        {
+            Console.WriteLine("Iniciando o pagamento");
+        }
 
-        // AS FUNÇÕES QUE TEM (SE TORNAM MÉTODOS)
-        void Pagar() { }
+        public void Dispose()
+        {
+            Console.WriteLine("Finalizando o pagamento");
+        }
     }
 }

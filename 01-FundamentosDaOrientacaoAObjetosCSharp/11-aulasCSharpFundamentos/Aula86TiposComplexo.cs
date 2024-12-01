@@ -1,4 +1,4 @@
-// TIPOS COMPLEXOS
+// MODIFICADORES DE ACESSO
 
 using System;
 
@@ -13,27 +13,19 @@ namespace Cs
       Console.WriteLine("Ola");
     }
   }
-
-  // PRIVATE - ELE FICA RESTRITO AO ESCOPO DA CLASS
-  //  PROTECTED - ELE É O ESCOPO DA CLASS MAIS A CLASS FILHO
-  // INTERNAL -
-  //  PUBLIC - E PUBLIC ELE TA DE FATO PUBLIC QUAL QUER PESSOA DE FORA PODE ALTERA AS INFORMAÇÃO DA CLASS
-
-  public class Pagamento // SE NÃO COLOCAR NADA A CLASS E CONSIDERADA PRIVADA
+  // TODAS CLASS SÃO CONSIDERADA TIPOS COMPLEXOS
+  public class Pagamento
   {
     // AS VARIÁVEIS QUE TEM (SE TORNAM PROPRIEDADES)
-    protected DateTime Vencimento;
+    DateTime Vencimento;
+
+    Address BillingAddress;
 
     // AS FUNÇÕES QUE TEM (SE TORNAM MÉTODOS)
-    private void Pagar() { }
-
+    void Pagar() { }
   }
-  // METODO HERANÇA
-  public class PagamentoBoleto : Pagamento
+  public class Address
   {
-    void Test()
-    {
-      // base.Vencimento;
-    }
+    string ZipCode;
   }
 }
