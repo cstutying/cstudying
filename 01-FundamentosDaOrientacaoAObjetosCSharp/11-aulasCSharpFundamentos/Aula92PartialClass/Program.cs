@@ -1,4 +1,4 @@
-﻿// INTERFACES
+﻿// PARTIAL CLASS
 
 using System;
 
@@ -9,6 +9,8 @@ namespace Cs
         static void Main(string[] args)
         {
             Console.WriteLine("Ola");
+            // var payment = new Payment();
+            // payment.PropriedadeA();
         }
     }
 }
