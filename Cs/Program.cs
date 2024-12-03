@@ -1,4 +1,4 @@
-﻿// UPCAST E DOWNCAST
+﻿// DELEGATES
 
 using System;
 

@@ -1,4 +1,4 @@
-// COMPARANDO OBJETOS
+// DELEGATES
 
 using System;
 
