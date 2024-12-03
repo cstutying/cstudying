@@ -1,4 +1,4 @@
-﻿// DELEGATES
+﻿// EVENTS
 
 using System;
 
