@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VNyXxpuE1djt8wqoTDj3tqhX2DRbu3wMFIw3OTPgKme/R3Vwp4/7Bk1JpjjPhh54sKhhkLPV33kxkOgy7/QaJQ==",
+  "dgSpecHash": "INfWR+auBdlJB3/YRJIkblwooB/W2KJ2JmASORObFkv54cjZTbhR+bGTyq+XWsssBkV25Fx1xODX0a5XDBDNBg==",
   "success": true,
   "projectFilePath": "/home/linux/Documentos/Projetos/Curso/JsCSharp/AulasCSharpJS/JsCSharp/Cs/Cs.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/linux/.nuget/packages/flunt/2.0.5/flunt.2.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
