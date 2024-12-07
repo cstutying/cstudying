@@ -45,3 +45,6 @@
 /home/linux/Documentos/Projetos/Curso/ProjetoEstudoCSharp/Exercicio/Cs/bin/Debug/net8.0/Flunt.dll
 /home/linux/Documentos/Projetos/Curso/ProjetoEstudoCSharp/Exercicio/Cs/obj/Debug/net8.0/Cs.csproj.AssemblyReference.cache
 /home/linux/Documentos/Projetos/Curso/ProjetoEstudoCSharp/Exercicio/Cs/obj/Debug/net8.0/Cs.csproj.CopyComplete
+/home/linux/Documentos/Projetos/Curso/JsCSharp/AulasCSharpJS/JsCSharp/Cs/bin/Debug/net8.0/Flunt.dll
+/home/linux/Documentos/Projetos/Curso/JsCSharp/AulasCSharpJS/JsCSharp/Cs/obj/Debug/net8.0/Cs.csproj.AssemblyReference.cache
+/home/linux/Documentos/Projetos/Curso/JsCSharp/AulasCSharpJS/JsCSharp/Cs/obj/Debug/net8.0/Cs.csproj.CopyComplete
