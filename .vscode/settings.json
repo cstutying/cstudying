@@ -1,6 +1,6 @@
 {
   "prettier.tabWidth": 2,
-  "cSpell.minWordLength": 4,
+  "cSpell.minWordLength": 2,
   "cSpell.words": [
     "Atualizacao",
     "Cartao",
