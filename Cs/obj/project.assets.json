@@ -39,12 +39,13 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Downloads\\cstudying\\Cs\\Cs.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\Cs.csproj",
       "projectName": "Cs",
-      "projectPath": "C:\\Users\\Admin\\Downloads\\cstudying\\Cs\\Cs.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\Cs.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Downloads\\cstudying\\Cs\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\obj\\",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
@@ -69,8 +70,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {

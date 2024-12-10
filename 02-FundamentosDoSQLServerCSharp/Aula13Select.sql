@@ -1,0 +1,26 @@
+-- (SELECT) SELECIONA ALGO DE
+-- (*) SELECIONA TUDO
+-- (OTIMIZAÇÃO) SEMPRE DAR PREFERENCIA DE EXECUTAR (TOP 2,10,100,200,100 ETC.) EM VEZ DO (*)
+--EXEMPLO 1
+--SELECT * FROM[Curso]
+
+--EXEMPLO 2
+--SELECT TOP 2 * FROM[Curso]
+
+--EXEMPLO 3
+-- SELECT TOP 2
+--     [Id], [Nome]
+-- FROM 
+--     [Curso]
+
+--EXEMPLO 4
+-- SELECT TOP 100
+--     [Id], [Nome]
+-- FROM 
+--     [Categoria]
+
+--EXEMPLO 4 (DISTINCT)
+SELECT DISTINCT TOP 100
+    [Nome]
+FROM 
+    [Categoria]
