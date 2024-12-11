@@ -1,0 +1,13 @@
+-- (JOIN) JUNÇÃO 
+-- (LEFT JOIN) PEGA TODOS OS ITENS DA PRIMEIRA TABELA
+-- (RIGHT JOIN) TRAZ TODAS AS CATEGORIA E SE O CURSO EXISTIR
+-- (FULL JOIN) ELE EXECUTA TANTO DO (LEFT) QUANTO DO (RIGHT) ELE VAI LISTAR TUDO
+-- (FULL OUTER JOIN) PEGA TUDO QUE ESTA EM (UM) E TUDO QUE ESTA EM (OUTRO)
+SELECT TOP 100
+  [Curso].[Id],
+  [Curso].[Nome],
+  [Categoria].[Id] AS [Categoria],
+  [Categoria].[Nome]
+FROM
+    [Curso]
+    FULL OUTER JOIN [Categoria] ON [Curso].[CategoriaId] = [Categoria].[Id]
