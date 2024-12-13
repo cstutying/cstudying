@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "6ZWSI2dxAVs=",
+  "dgSpecHash": "6eCMylj15C0=",
   "success": true,
-  "projectFilePath": "/home/linux/Documentos/Projetos/Curso/ProjetoEstudoCSharp/Exercicio/Cs/Cs.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\Cs.csproj",
   "expectedPackageFiles": [
-    "/home/linux/.nuget/packages/flunt/2.0.5/flunt.2.0.5.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.11\\microsoft.netcore.app.host.win-x64.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }

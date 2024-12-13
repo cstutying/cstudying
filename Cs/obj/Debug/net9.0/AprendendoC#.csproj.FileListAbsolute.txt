@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\bin\Debug\net9.0\AprendendoC#.exe
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\bin\Debug\net9.0\AprendendoC#.deps.json
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\bin\Debug\net9.0\AprendendoC#.runtimeconfig.json
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\bin\Debug\net9.0\AprendendoC#.dll
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\bin\Debug\net9.0\AprendendoC#.pdb
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\obj\Debug\net9.0\AprendendoC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\obj\Debug\net9.0\AprendendoC#.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\obj\Debug\net9.0\AprendendoC#.AssemblyInfo.cs
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\obj\Debug\net9.0\AprendendoC#.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\obj\Debug\net9.0\AprendendoC#.sourcelink.json
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\obj\Debug\net9.0\AprendendoC#.dll
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\obj\Debug\net9.0\refint\AprendendoC#.dll
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\obj\Debug\net9.0\AprendendoC#.pdb
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\obj\Debug\net9.0\AprendendoC#.genruntimeconfig.cache
+C:\Users\Admin\Documents\AprendendoC#\cstudying\Cs\obj\Debug\net9.0\ref\AprendendoC#.dll

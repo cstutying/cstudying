@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/home/linux/Documentos/Projetos/Curso/ProjetoEstudoCSharp/Exercicio/Cs/Cs.csproj": {}
+    "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\Cs.csproj": {}
   },
   "projects": {
-    "/home/linux/Documentos/Projetos/Curso/ProjetoEstudoCSharp/Exercicio/Cs/Cs.csproj": {
+    "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\Cs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/linux/Documentos/Projetos/Curso/ProjetoEstudoCSharp/Exercicio/Cs/Cs.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\Cs.csproj",
         "projectName": "Cs",
-        "projectPath": "/home/linux/Documentos/Projetos/Curso/ProjetoEstudoCSharp/Exercicio/Cs/Cs.csproj",
-        "packagesPath": "/home/linux/.nuget/packages/",
-        "outputPath": "/home/linux/Documentos/Projetos/Curso/ProjetoEstudoCSharp/Exercicio/Cs/obj/",
+        "projectPath": "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\Cs.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "/home/linux/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -33,6 +33,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,12 +60,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/var/run/host/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

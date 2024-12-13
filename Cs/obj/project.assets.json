@@ -1,37 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
-      "Flunt/2.0.5": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Flunt.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Flunt.dll": {}
-        }
-      }
-    }
+    "net9.0": {}
   },
-  "libraries": {
-    "Flunt/2.0.5": {
-      "sha512": "CMgq8FUYjkHzyZT3PhkUwZyy79mudON+EL4b0SAT7BfIOJ2CNypwnbdA0cPHAM2CYQfO2L8ubNJCiBHQOIv2pA==",
-      "type": "package",
-      "path": "flunt/2.0.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "flunt.2.0.5.nupkg.sha512",
-        "flunt.nuspec",
-        "icon.png",
-        "lib/netstandard2.0/Flunt.dll"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": [
-      "Flunt >= 2.0.5"
-    ]
+    "net9.0": []
   },
   "packageFolders": {
     "C:\\Users\\Admin\\.nuget\\packages\\": {}
@@ -39,25 +13,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\Cs.csproj",
-      "projectName": "Cs",
-      "projectPath": "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\Cs.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\AprendendoC#\\AprendendoC#.csproj",
+      "projectName": "AprendendoC#",
+      "projectPath": "C:\\Users\\Admin\\Documents\\AprendendoC#\\AprendendoC#.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\AprendendoC#\\cstudying\\Cs\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\AprendendoC#\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net9.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {}
         }
       },
@@ -70,17 +43,12 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
-        "dependencies": {
-          "Flunt": {
-            "target": "Package",
-            "version": "[2.0.5, )"
-          }
-        },
+      "net9.0": {
+        "targetAlias": "net9.0",
         "imports": [
           "net461",
           "net462",
@@ -92,24 +60,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
