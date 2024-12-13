@@ -19,7 +19,7 @@ internal class Program
         //      Console.WriteLine(article.Title);
         //       Console.WriteLine(article.Url);
         //}
-
+       
         var courses = new List<Course>();
         var courseOOP = new Course("Fundamentos OOP", "fundamentos-oop");
         var courseCsharp = new Course("Fundamentos CSharp", "fundamentos-csharp");
