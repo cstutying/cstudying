@@ -1,4 +1,6 @@
 ﻿using System;
+using CSharp.Models;
+using Dapper;
 using Microsoft.Data.SqlClient;
 
 namespace CSharp
@@ -12,26 +14,13 @@ namespace CSharp
 
       using (var connection = new SqlConnection(connectionString))
       {
-        Console.WriteLine("Conectado");
-
-        connection.Open();
-
-        using (var command = new SqlCommand())
+        var categories = connection.Query<Category>("SELECT [Id], [Title] FROM [Category]");
+        foreach (var category in categories)
         {
-          command.Connection = connection;
-          command.CommandType = System.Data.CommandType.Text;
-          command.CommandText = "SELECT [Id], [Title] FROM [Category]";
-
-          //SqlDataReader É FORMA MAIS RÁPIDA DE LER INFORMAÇÃO DO DOTNET
-          var reader = command.ExecuteReader();
-          while (reader.Read())
-          {
-            Console.WriteLine($"{reader.GetGuid(0)} - {reader.GetString(1)}");
-          }
+          Console.WriteLine($"{category.Id} - {category.Id}");
         }
       }
-
-      Console.WriteLine("Hello World!");
+      Console.WriteLine("Ola");
     }
   }
 }
