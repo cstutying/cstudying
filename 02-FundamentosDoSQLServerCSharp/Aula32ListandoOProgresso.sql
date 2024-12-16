@@ -1,0 +1,30 @@
+SELECT * FROM [Course]
+SELECT * FROM [Student]
+SELECT * FROM [StudentCourse]
+
+SELECT NEWID() -- GERA UM ID ALEATÓRIO
+
+-- STUDENT
+INSERT INTO
+  [Student]
+VALUES (
+  '8bade943-b0f2-48a1-ac87-63486ec5a067',
+  'Christian',
+  'chri@gmail.com',
+  '1234556890',
+  '12345678',
+  'NULL', -- FORMATO NULO
+  GETDATE()
+)
+
+--STUDENT COURSE
+INSERT INTO
+  [StudentCourse]
+VALUES(
+  '5f5a33f8-4ff3-7e10-cc6e-3fa000000000', -- CURSE ID
+  '8bade943-b0f2-48a1-ac87-63486ec5a067', -- STUDENT ID
+  50, --PROGRSSO DO CURSO
+  0, -- FAVORITO
+  '2020-01-13 12:35:54', -- FORMATO PADRAO DA DATA E HORA
+  GETDATE() -- DATA DA ULTIMA ATUALIZAÇÃO (ATUAL)
+)

@@ -4,6 +4,7 @@
   "cSpell.words": [
     "Atualizacao",
     "Cartao",
+    "DDLMCG",
     "divisao",
     "dolar",
     "Dolar",
@@ -20,7 +21,11 @@
     "Multiplicacao",
     "negacao",
     "Numeros",
+    "PADRAO",
     "parametro",
+    "PROGRSSO",
+    "SQLEXPRESS",
     "subtracao"
-  ]
+  ],
+  "dotnet.defaultSolution": "CSharp.sln"
 }
