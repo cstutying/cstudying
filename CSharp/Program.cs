@@ -22,8 +22,13 @@ namespace CSharp
         // UpdateCategory(connection); // CHAMANDO LISTA DE UPDATE
         // DeleteCategory(connection); // 
         // ListCategories(connection); // CHAMANDO LISTA DE CATEGORIES
-        // GetCategory(connection);
-        ExecuteProcedure(connection); // CHAMANDO EXECUTE PROCEDURE
+        // GetCategory(connection); //
+        // ExecuteProcedure(connection); // CHAMANDO EXECUTE PROCEDURE
+        // ExecuteReadProcedure(connection); // CHAMANDO EXECUTE READ PROCEDURE
+        // ExecuteScalar(connection); // CHAMANDO EXECUTE SCALAR
+        // ReadView(connection); // CHAMANDO READ VIEW
+        OneToOne(connection); // CHAMANDO ONE TO ONE
+
       }
     }
 
@@ -177,7 +182,86 @@ namespace CSharp
       Console.WriteLine($"{affectedRows} linha afetada");
     }
 
-    // 
+    //  CRIAÇÃO DA EXECUTE READ PROCEDURE (8-METODO)
+    static void ExecuteReadProcedure(SqlConnection connection)
+    {
+      var procedure = "spGetCoursesByCategory";
+      var pars = new { CategoryId = "09ce0b7b-cfca-497b-92c0-3290ad9d5142" };
+      var courses = connection.Query(
+        procedure,
+        pars,
+        commandType: CommandType.StoredProcedure);
 
+      foreach (var item in courses)
+      {
+        Console.WriteLine(item.Title);
+      }
+    }
+
+    // CRIAÇÃO DA EXECUTE SCALAR (9-METODO)
+    static void ExecuteScalar(SqlConnection connection)
+    {
+      var category = new Category();
+      category.Title = "Amazon AWS";
+      category.Url = "amazon";
+      category.Description = "Categoria destina a serviços do AWS";
+      category.Order = 8;
+      category.Summary = "AWS Cloud";
+      category.Featured = false;
+
+      var insertSql = @"
+          INSERT INTO 
+              [Category] 
+          OUTPUT inserted.[Id]
+          VALUES (
+              NEWID(), 
+              @Title, 
+              @Url, 
+              @Summary, 
+              @Order, 
+              @Description, 
+              @Featured)";
+
+      // EXECUTANDO QUERY (insertSql)
+      var id = connection.ExecuteScalar<Guid>(insertSql, new
+      {
+        category.Title,
+        category.Url,
+        category.Summary,
+        category.Order,
+        category.Description,
+        category.Featured,
+      });
+      Console.WriteLine($"A categoria inserida foi: {id}");
+    }
+
+    // CRIAÇÃO DA READ VIEW (10-METODO)
+    static void ReadView(SqlConnection connection)
+    {
+      var sql = "SELECT * FROM [vwCourses]";
+      var courses = connection.Query(sql);
+      foreach (var item in courses)
+      {
+        Console.WriteLine($"{item.Id} - {item.Title}");
+      }
+    }
+
+    // CRIAÇÃO DE ONE TO ONE (11-METODO)
+    static void OneToOne(SqlConnection connection)
+    {
+      var sql = @"
+          SELECT 
+             *
+          FROM
+             [CareerItem] 
+          INNER JOIN [Course] ON [CareerItem].[CourseId]=[Course].[Id]";
+
+      var items = connection.Query(sql);
+
+      foreach (var item in items)
+      {
+        Console.WriteLine(item.DurationInMinutes);
+      }
+    }
   }
 }
