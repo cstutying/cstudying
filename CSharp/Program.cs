@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using System.Runtime.CompilerServices;
 using CSharp.Models;
 using Dapper;
 using Microsoft.Data.SqlClient;
@@ -27,7 +28,8 @@ namespace CSharp
         // ExecuteReadProcedure(connection); // CHAMANDO EXECUTE READ PROCEDURE
         // ExecuteScalar(connection); // CHAMANDO EXECUTE SCALAR
         // ReadView(connection); // CHAMANDO READ VIEW
-        OneToOne(connection); // CHAMANDO ONE TO ONE
+        // OneToOne(connection); // CHAMANDO ONE TO ONE
+        OneToMany(connection); // CHAMANDO ONE TO MANY
 
       }
     }
@@ -256,11 +258,50 @@ namespace CSharp
              [CareerItem] 
           INNER JOIN [Course] ON [CareerItem].[CourseId]=[Course].[Id]";
 
-      var items = connection.Query(sql);
+      var items = connection.Query<CareerItem, Course, CareerItem>(
+        sql,
+        (careerItem, course) =>
+        {
+          careerItem.Course = course;
+          return careerItem;
+        }, splitOn: "Id");
 
       foreach (var item in items)
       {
-        Console.WriteLine(item.DurationInMinutes);
+        Console.WriteLine($"{item.Title} - Curso: {item.Course?.Title}");
+      }
+    }
+
+    // CRIAÇÃO DE ONE TO MANY (12-METODO)
+    static void OneToMany(SqlConnection connection)
+    {
+      var sql = @"
+      SELECT 
+          [Career].[Id], 
+          [Career].[Title],
+          [CareerItem].[CareerId], 
+          [CareerItem].[Title]
+        FROM
+          [Career]
+        INNER JOIN
+          [CareerItem] ON [CareerItem].[CareerId] = [Career].[Id]
+        ORDER BY 
+          [Career].[Title]";
+
+      var careers = connection.Query<Career, CareerItem, Career>(
+        sql,
+        (career, item) =>
+        {
+          return career;
+        }, splitOn: "CareerId");
+
+      foreach (var career in careers)
+      {
+        Console.WriteLine($"{career.Title}");
+        foreach (var item in career.Items)
+        {
+          Console.WriteLine($" - {item.Title}");
+        }
       }
     }
   }
