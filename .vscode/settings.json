@@ -20,6 +20,7 @@
     "Minusculos",
     "multiplcacao",
     "Multiplicacao",
+    "Mutiple",
     "negacao",
     "NEWID",
     "Numeros",
@@ -29,5 +30,5 @@
     "SQLEXPRESS",
     "subtracao"
   ],
-  "dotnet.defaultSolution": "CSharp.sln"
+  // "dotnet.defaultSolution": "CSharp.sln"
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using CSharp.Models;
 using Dapper;
@@ -14,7 +15,7 @@ namespace CSharp
     {
       // CONEXÃO COM BANCO DE DADOS
       const string connectionString =
-        "Server=DESKTOP-6DDLMCG\\SQLEXPRESS;Database=CSharp;Trusted_Connection=True;TrustServerCertificate=True;";
+        "Server=DESKTOP-ON9P9QD\\SQLEXPRESS;Database=CSharp;Trusted_Connection=True;TrustServerCertificate=True;";
 
       using (var connection = new SqlConnection(connectionString))
       {
@@ -29,7 +30,8 @@ namespace CSharp
         // ExecuteScalar(connection); // CHAMANDO EXECUTE SCALAR
         // ReadView(connection); // CHAMANDO READ VIEW
         // OneToOne(connection); // CHAMANDO ONE TO ONE
-        OneToMany(connection); // CHAMANDO ONE TO MANY
+        // OneToMany(connection); // CHAMANDO ONE TO MANY
+        QueryMutiple(connection); // CHAMANDO QUERY MUTIPLE MANY TO MANY 
 
       }
     }
@@ -288,10 +290,22 @@ namespace CSharp
         ORDER BY 
           [Career].[Title]";
 
-      var careers = connection.Query<Career, CareerItem, Career>(
+      var careers = new List<Career>();
+      var items = connection.Query<Career, CareerItem, Career>(
         sql,
         (career, item) =>
         {
+          var car = careers.Where(x => x.Id == career.Id).FirstOrDefault();
+          if (car == null)
+          {
+            car = career;
+            car.Items.Add(item);
+            careers.Add(car);
+          }
+          else
+          {
+            car.Items.Add(item);
+          }
           return career;
         }, splitOn: "CareerId");
 
@@ -301,6 +315,28 @@ namespace CSharp
         foreach (var item in career.Items)
         {
           Console.WriteLine($" - {item.Title}");
+        }
+      }
+    }
+
+    // CRIAÇÃO QUERY MUTIPLE MANY TO MANY (13-METODO)
+    static void QueryMutiple(SqlConnection connection)
+    {
+      var query = "SELECT * FROM [Category]; SELECT * FROM [Course]";
+
+      using (var multi = connection.QueryMultiple(query))
+      {
+        var categories = multi.Read<Category>();
+        var courses = multi.Read<Course>();
+
+        foreach (var item in categories)
+        {
+          Console.WriteLine(item.Title);
+        }
+
+        foreach (var item in courses)
+        {
+          Console.WriteLine(item.Title);
         }
       }
     }
