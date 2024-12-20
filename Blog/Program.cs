@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using Blog.Models;
+using Blog.Repositories;
 using Dapper.Contrib.Extensions;
 using Microsoft.Data.SqlClient;
 
@@ -21,14 +22,12 @@ namespace Blog
     // CRIAÇÃO DE READ USERS (1-METODO)
     public static void ReadUsers()
     {
-      using (var connection = new SqlConnection(CONNECTION_STRING))
-      {
-        var users = connection.GetAll<User>();
+      var repository = new UserRepository();
+      var users = repository.Get();
 
-        foreach (var user in users)
-        {
-          Console.WriteLine(user.Name);
-        }
+      foreach (var user in users)
+      {
+        Console.WriteLine(user.Name);
       }
     }
 
@@ -94,8 +93,5 @@ namespace Blog
         Console.WriteLine("Exclusão Realizada com sucesso");
       }
     }
-
-    // 
-
   }
 }
