@@ -5,3 +5,7 @@ SELECT TOP 100
     --[Id] AS [Codigo], --EXEMPLO 2
 FROM
     [Curso]
+
+
+--EXEMPLO 3 (SELECIONA UM USER)
+SELECT * FROM [User]

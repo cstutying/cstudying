@@ -24,3 +24,10 @@ WHERE database_id  = db_id('CSharp')
 EXEC(@kill);
 
 DROP DATABASE [CSharp]
+
+-- EXEMPLO 4 [CRIA DATA BASE]
+CREATE DATABASE [Blog]
+GO
+
+USE [Blog]
+GO
