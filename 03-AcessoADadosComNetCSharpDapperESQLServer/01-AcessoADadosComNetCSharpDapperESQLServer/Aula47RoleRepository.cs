@@ -9,15 +9,15 @@ namespace Blog.Repositories
   {
     private readonly SqlConnection _connection;
 
-    // CRIAÇÃO DE USER REPOSITORY (0-METODO)
+    // CRIAÇÃO DE ROLE REPOSITORY (0-METODO)
     public RoleRepository(SqlConnection connection)
     => _connection = connection;
 
-    // CRIAÇÃO DE USER (1-METODO)
+    // CRIAÇÃO DE I ENUMERABLE (1-METODO)
     public IEnumerable<Role> Get()
     => _connection.GetAll<Role>();
 
-    // CRIAÇÃO DE USER (2-METODO)
+    // CRIAÇÃO DE ROLE (2-METODO)
     public Role Get(int id)
     => _connection.Get<Role>(id);
 

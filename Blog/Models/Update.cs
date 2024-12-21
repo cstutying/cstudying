@@ -2,8 +2,8 @@ using Dapper.Contrib.Extensions;
 
 namespace Blog.Models
 {
-  [Table("[Role]")]
-  public class Role
+  [Table("[Update]")]
+  public class Update
   {
     public int Id { get; set; }
     public string? Name { get; set; }

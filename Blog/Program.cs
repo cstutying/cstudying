@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Diagnostics.Tracing;
 using Blog.Models;
 using Blog.Repositories;
 using Dapper.Contrib.Extensions;
@@ -15,8 +16,9 @@ namespace Blog
       var connection = new SqlConnection(CONNECTION_STRING);
       connection.Open();
 
-      ReadUsers(connection); // CHAMANDO METODO READ USERS
-      ReadRoles(connection); // CHAMANDO METODO READ ROLES
+      ReadUsers(connection);
+      ReadRoles(connection);
+      ReadTags(connection);
 
       connection.Close();
     }
@@ -25,20 +27,57 @@ namespace Blog
     public static void ReadUsers(SqlConnection connection)
     {
       var repository = new Repository<User>(connection);
-      var users = repository.Get();
+      var items = repository.Get();
 
-      foreach (var user in users)
-        Console.WriteLine(user.Name);
+      foreach (var item in items)
+      {
+        Console.WriteLine(item.Name);
+
+        foreach (var role in item.Roles)
+        {
+          Console.WriteLine($" - {item.Name}");
+        }
+      }
     }
 
     // CRIAÇÃO DE READ ROLES (2-METODO)
     public static void ReadRoles(SqlConnection connection)
     {
-      var repository = new RoleRepository(connection);
-      var roles = repository.Get();
+      var repository = new Repository<Role>(connection);
+      var items = repository.Get();
 
-      foreach (var role in roles)
-        Console.WriteLine(role.Name);
+      foreach (var item in items)
+        Console.WriteLine(item.Name);
+    }
+
+    // CRIAÇÃO DE READ TAGS (3-METODO)
+    public static void ReadTags(SqlConnection connection)
+    {
+      var repository = new Repository<Tag>(connection);
+      var items = repository.Get();
+
+      foreach (var item in items)
+        Console.WriteLine(item.Name);
+    }
+
+    // CRIAÇÃO DE READ UPDATE (4-METODO)
+    public static void ReadUpdate(SqlConnection connection)
+    {
+      var repository = new Repository<Update>(connection);
+      var items = repository.Get();
+
+      foreach (var item in items)
+        Console.WriteLine(item.Name);
+    }
+
+    // CRIAÇÃO DE READ DELETE (5-METODO)
+    public static void ReadDelete(SqlConnection connection)
+    {
+      var repository = new Repository<Delete>(connection);
+      var items = repository.Get();
+
+      foreach (var item in items)
+        Console.WriteLine(item.Name);
     }
   }
 }

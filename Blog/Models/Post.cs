@@ -1,12 +1,14 @@
 using Dapper.Contrib.Extensions;
+using System.Collections.Generic;
 
 namespace Blog.Models
 {
-  [Table("[Role]")]
-  public class Role
+  [Table("Post")]
+  public class Post
   {
     public int Id { get; set; }
     public string? Name { get; set; }
-    public string? Slug { get; set; }
+
+    // public int CategoryId { get; set; }
   }
 }

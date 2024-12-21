@@ -13,3 +13,14 @@ CREATE TABLE [User](
 )
 CREATE NONCLUSTERED INDEX [IX_User_Email] ON [User] ([Email])
 CREATE NONCLUSTERED INDEX [IX_User_Slug] ON [User] ([Slug])
+
+
+INSERT INTO
+    [User]
+VALUES(
+    'Christian CSharp',
+    'christian@chsarp.com',
+    'HASH',
+    'Aprendendo CSharp',
+    'https://...',
+    'christian-csharp')
