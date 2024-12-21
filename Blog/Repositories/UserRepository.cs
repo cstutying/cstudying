@@ -6,13 +6,23 @@ namespace Blog.Repositories
 {
   public class UserRepository
   {
-    // CRIAÇÃO DE READ USERS (1-METODO)
-    public IEnumerable<User> Get()
+    private readonly SqlConnection _connection;
+
+    // CRIAÇÃO DE USER REPOSITORY (0-METODO)
+    public UserRepository(SqlConnection connection)
+      => _connection = connection;
+
+
+
+    // CRIAÇÃO DE USER (2-METODO)
+    public User Get(int id)
+      => _connection.Get<User>(id);
+
+    // CRIAÇÃO DO CREATE (3-METODO)
+    public void Create(User user)
     {
-      using (var connection = new SqlConnection(""))
-      {
-        return connection.GetAll<User>();
-      }
+      user.Id = 0;
+      _connection.Insert<User>(user);
     }
   }
 }
