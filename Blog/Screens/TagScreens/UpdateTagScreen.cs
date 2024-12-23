@@ -14,15 +14,16 @@ namespace Blog.Screens.TagScreens
       Console.WriteLine("------------");
       Console.WriteLine("Id: ");
       var id = Console.ReadLine();
-      
+
       Console.WriteLine("Nome: ");
       var name = Console.ReadLine();
-      
+
       Console.Write("Slug");
       var slug = Console.ReadLine();
-      
+
       Update(new Tag
       {
+        Id = int.Parse(id),
         Name = name,
         Slug = slug
       });

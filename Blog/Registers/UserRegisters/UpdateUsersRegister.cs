@@ -16,15 +16,32 @@ public static class UpdateUsersRegister
     Console.WriteLine("Numero do Id: ");
     var id = Console.ReadLine();
 
-    Console.WriteLine("Nome: ");
+    Console.WriteLine("Nome:");
     var name = Console.ReadLine();
+
+    var email = Console.ReadLine();
+    Console.WriteLine("Email:");
+
+    var passwordHash = Console.ReadLine();
+    Console.WriteLine("Senha: ");
+
+    var bio = Console.ReadLine();
+    Console.WriteLine("Bio:");
+
+    var image = Console.ReadLine();
+    Console.WriteLine("Imagem:");
 
     Console.WriteLine("Slug: ");
     var slug = Console.ReadLine();
 
     Update(new User
     {
+      Id = int.Parse(id),
       Name = name,
+      Email = email,
+      PasswordHash = passwordHash,
+      Bio = bio,
+      Image = image,
       Slug = slug
     });
     Console.ReadKey();

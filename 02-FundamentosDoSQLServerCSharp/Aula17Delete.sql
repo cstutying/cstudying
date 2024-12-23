@@ -31,3 +31,6 @@ GO
 
 USE [Blog]
 GO
+
+-- EXEMPLO 5 [EXCLUI UMA TABELA]
+DROP TABLE NomeDaTabela;

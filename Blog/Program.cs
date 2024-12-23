@@ -30,7 +30,7 @@ namespace Blog
       Console.WriteLine("O que deseja fazer?");
       Console.WriteLine();
       Console.WriteLine("1 - Lista de Usuário");
-      Console.WriteLine("2 - Lista de Telefone");
+      Console.WriteLine("2 - Lista Telefonica");
       Console.WriteLine("3 - Gestão de categoria");
       Console.WriteLine("4 - Gestão de tag");
       Console.WriteLine("5 - Vincular perfil/usuário");

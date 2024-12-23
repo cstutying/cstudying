@@ -26,7 +26,8 @@ public static class ListUsersRegister
     var users = repository.Get();
     foreach (var item in users)
     {
-      Console.WriteLine($"{item.Id} - {item.Name} [{item.Email}]");
+      Console.WriteLine(
+        $"[ID]:{item.Id} [Nome]:{item.Name} [Email]:{item.Email} [Slug]:{item.Slug}");
     }
   }
 }

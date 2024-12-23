@@ -18,6 +18,7 @@ namespace Blog.Registers.UserRegisters
       Console.WriteLine("2 - Cadastrar Usuários");
       Console.WriteLine("3 - Atualizar Usuários");
       Console.WriteLine("4 - Excluir Usuários");
+      Console.WriteLine("5 - Sair");
       Console.WriteLine();
       Console.WriteLine();
       var option = short.Parse(Console.ReadLine()!);
@@ -35,6 +36,9 @@ namespace Blog.Registers.UserRegisters
           break;
         case 4:
           DeleteUsersRegister.Loading();
+          break;
+        case 5:
+          Environment.Exit(0);
           break;
         default: Loading(); break;
       }

@@ -12,9 +12,9 @@ namespace Blog.Screens.TagScreens
       Console.Clear();
       Console.WriteLine("Lista de tags");
       Console.WriteLine("------------");
+
       Console.WriteLine("Nome: ");
       var name = Console.ReadLine();
-
       Console.Write("Slug");
       var slug = Console.ReadLine();
 
