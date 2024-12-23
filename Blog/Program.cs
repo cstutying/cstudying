@@ -1,83 +1,58 @@
-﻿using System;
-using System.ComponentModel;
-using System.Diagnostics.Tracing;
-using Blog.Models;
-using Blog.Repositories;
-using Dapper.Contrib.Extensions;
+﻿using Blog.Phones.ConnectPhones;
+using Blog.Registers.UserRegisters;
+using Blog.Screens.TagScreens;
 using Microsoft.Data.SqlClient;
 
 namespace Blog
 {
   class Program
   {
-    private const string CONNECTION_STRING = "Server=DESKTOP-ON9P9QD\\SQLEXPRESS;Database=Blog;Trusted_Connection=True;TrustServerCertificate=True;";
+    private const string CONNECTION_STRING =
+      "Server=DESKTOP-ON9P9QD\\SQLEXPRESS;Database=Blog;" +
+      "Trusted_Connection=True;TrustServerCertificate=True;";
+
     static void Main(string[] args)
     {
-      var connection = new SqlConnection(CONNECTION_STRING);
-      connection.Open();
+      Database.Connection = new SqlConnection(CONNECTION_STRING);
+      Database.Connection.Open();
 
-      ReadUsers(connection);
-      ReadRoles(connection);
-      ReadTags(connection);
+      Loading();
 
-      connection.Close();
+      Console.ReadKey();
+      Database.Connection.Close();
     }
 
-    // CRIAÇÃO DE READ USERS (1-METODO)
-    public static void ReadUsers(SqlConnection connection)
+    private static void Loading()
     {
-      var repository = new Repository<User>(connection);
-      var items = repository.Get();
+      Console.Clear();
+      Console.WriteLine("Exercício CSHARP");
+      Console.WriteLine("--------------");
+      Console.WriteLine("O que deseja fazer?");
+      Console.WriteLine();
+      Console.WriteLine("1 - Lista de Usuário");
+      Console.WriteLine("2 - Lista de Telefone");
+      Console.WriteLine("3 - Gestão de categoria");
+      Console.WriteLine("4 - Gestão de tag");
+      Console.WriteLine("5 - Vincular perfil/usuário");
+      Console.WriteLine("6 - Vincular post/tag");
+      Console.WriteLine("7 - Relatórios");
+      Console.WriteLine();
+      Console.WriteLine();
+      var option = short.Parse(Console.ReadLine()!);
 
-      foreach (var item in items)
+      switch (option)
       {
-        Console.WriteLine(item.Name);
-
-        foreach (var role in item.Roles)
-        {
-          Console.WriteLine($" - {item.Name}");
-        }
+        case 1:
+          MenuUsersRegister.Loading();
+          break;
+        case 2:
+          MenuConnectPhone.Loading();
+          break;
+        case 4:
+          MenuTagScreen.Loading();
+          break;
+        default: Loading(); break;
       }
-    }
-
-    // CRIAÇÃO DE READ ROLES (2-METODO)
-    public static void ReadRoles(SqlConnection connection)
-    {
-      var repository = new Repository<Role>(connection);
-      var items = repository.Get();
-
-      foreach (var item in items)
-        Console.WriteLine(item.Name);
-    }
-
-    // CRIAÇÃO DE READ TAGS (3-METODO)
-    public static void ReadTags(SqlConnection connection)
-    {
-      var repository = new Repository<Tag>(connection);
-      var items = repository.Get();
-
-      foreach (var item in items)
-        Console.WriteLine(item.Name);
-    }
-
-    // CRIAÇÃO DE READ UPDATE (4-METODO)
-    public static void ReadUpdate(SqlConnection connection)
-    {
-      var repository = new Repository<Update>(connection);
-      var items = repository.Get();
-
-      foreach (var item in items)
-        Console.WriteLine(item.Name);
-    }
-
-    // CRIAÇÃO DE READ DELETE (5-METODO)
-    public static void ReadDelete(SqlConnection connection)
-    {
-      var repository = new Repository<Delete>(connection);
-      var items = repository.Get();
-
-      foreach (var item in items)
-        Console.WriteLine(item.Name);
     }
   }
 }

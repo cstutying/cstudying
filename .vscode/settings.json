@@ -29,7 +29,8 @@
   "PROGRSSO",
   "QD",
   "SQLEXPRESS",
-  "subtracao"
+  "subtracao",
+  "usr"
  ],
  "dotnet.defaultSolution": "Blog.sln"
  // "dotnet.defaultSolution": "CSharp.sln"
