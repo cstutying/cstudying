@@ -31,6 +31,9 @@ namespace Blog.Contacts.PersonsContacts
         case 3:
           UpdateContactsPerson.Loading();
           break;
+        case 4:
+          DeleteContactsPerson.Loading();
+          break;
         default: Loading(); break;
       }
     }
