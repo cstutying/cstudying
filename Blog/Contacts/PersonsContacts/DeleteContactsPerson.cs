@@ -10,7 +10,7 @@ namespace Blog.Contacts.PersonsContacts
       Console.Clear();
       Console.WriteLine("Excluir um Contato");
       Console.WriteLine("--------------");
-      Console.WriteLine("Qual ID do Contato deseja ecluir");
+      Console.WriteLine("Qual ID do Contato deseja excluir");
       var id = Console.ReadLine();
 
       Delete(int.Parse(id));
