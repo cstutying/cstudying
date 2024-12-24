@@ -30,7 +30,7 @@ namespace Blog.Phones.ConnectPhones
       }
       catch (Exception ex)
       {
-        Console.WriteLine("Não foi possivel excluir o Numero");
+        Console.WriteLine("Não foi possível excluir o Numero");
         Console.WriteLine(ex.Message);
       }
     }
