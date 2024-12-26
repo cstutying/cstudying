@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\CSharp\\CSharp.csproj": {}
+    "C:\\Users\\christian\\Documents\\AprendendoC#\\Project04\\CSharp\\CSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\CSharp\\CSharp.csproj": {
+    "C:\\Users\\christian\\Documents\\AprendendoC#\\Project04\\CSharp\\CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\CSharp\\CSharp.csproj",
+        "projectUniqueName": "C:\\Users\\christian\\Documents\\AprendendoC#\\Project04\\CSharp\\CSharp.csproj",
         "projectName": "CSharp",
-        "projectPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\CSharp\\CSharp.csproj",
+        "projectPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\Project04\\CSharp\\CSharp.csproj",
         "packagesPath": "C:\\Users\\christian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\CSharp\\obj\\",
+        "outputPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\Project04\\CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\christian\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
