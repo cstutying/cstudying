@@ -32,6 +32,6 @@
   "subtracao",
   "usr"
  ],
- "dotnet.defaultSolution": "Blog.sln"
+ "dotnet.defaultSolution": "CSharp.sln"
  // "dotnet.defaultSolution": "CSharp.sln"
 }
