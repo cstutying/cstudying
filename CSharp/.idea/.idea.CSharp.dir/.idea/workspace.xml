@@ -35,7 +35,7 @@
     "com.codeium.enabled": "true",
     "rider.code.cleanup.on.save": "true",
     "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.C#"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
   }
 }]]></component>
   <component name="RunManager">
@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1735173504255</updated>
       <workItem from="1735173505739" duration="18972000" />
-      <workItem from="1735233696420" duration="9522000" />
+      <workItem from="1735233696420" duration="16543000" />
     </task>
     <servers />
   </component>

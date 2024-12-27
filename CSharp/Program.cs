@@ -1,6 +1,7 @@
 ﻿using CSharp.Data;
 using CSharp.Models;
 using System.Linq;
+using System.Threading.Channels;
 using Microsoft.EntityFrameworkCore;
 
 namespace CSharp;
@@ -9,65 +10,40 @@ class Program
 {
   static void Main(string[] args)
   {
-    using (var context = new CSharpDataContext())
+    using var context = new CSharpDataContext();
+
+    var user = new User
     {
-      // CREATE
-      // var tag2 = new Tag { Name = "ASP.NET", Slug = "dotnet" };
-      // context.Tags.Add(tag2);
-      // context.SaveChanges();
-      //
-      // var tag = new Tag { Name = "ASP.NET", Slug = "aspnet" };
-      // context.Tags.Add(tag);
-      // context.SaveChanges();
+      Name = "Christian",
+      Slug = "christian",
+      Email = "christian@gmail.com",
+      Bio = "Studying C#",
+      Image = "https://github.com/christian.png",
+      PasswordHash = "123456"
+    };
 
-      // UPDATE
-      // var tag = context.Tags.FirstOrDefault(x => x.Id == 1);
-      // tag.Name = ".NET";
-      // tag.Slug = "dotnet";
 
-      // context.Update(tag);
-      // context.SaveChanges();
+    var category = new Category
+    {
+      Name = "Backend",
+      Slug = "backend"
+    };
 
-      // DELETE
-      // var tag = context.Tags.FirstOrDefault(x => x.Id == 1);
 
-      // context.Remove(tag);
-      // context.SaveChanges();
+    var post = new Post
+    {
+      Author = user,
+      Category = category,
+      Body = "<p>Ola Mundo</p>",
+      Slug = "iniciando-com-ef-core",
+      Summary = "Neste artigo vamos aprender EF core",
+      Title = "Começando com EF core",
+      CreateDate = DateTime.Now,
+      LastUpdateDate = DateTime.Now
+    };
+    context.Posts.Add(post);
+    context.SaveChanges();
 
-      // REMOVE
-      // var tag = context.Tags.FirstOrDefault(x => x.Id == 2);
-
-      // context.Remove(tag);
-      // context.SaveChanges();
-
-      // READ
-      // var tags = context
-      //   .Tags
-      //   .AsNoTracking()
-      //   .ToList();  
-
-      // foreach (var tag in tags)
-      // {
-      //   Console.WriteLine(tag.Name);
-      // }
-
-      // var tag = context
-      //   .Tags
-      //   .AsNoTracking()
-      //   .FirstOrDefault(x => x.Id == 3);
-
-      // tag.Name = "Ponto NET";
-      // tag.Slug = "dotnet";
-
-      // context.Update(tag);
-      // context.SaveChanges();
-      var tag = context
-        .Tags
-        .AsNoTracking()
-        .FirstOrDefault(x => x.Id == 13);
-
-      Console.WriteLine(tag.Name);
-      Console.ReadKey(); // Não deixa o terminal fechar
-    }
+    Console.ReadKey(); // Não deixa o terminal fechar
   }
 }
