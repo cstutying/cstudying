@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi\\NewApi.csproj": {}
+    "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi\\NewApi.csproj": {
+    "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi\\NewApi.csproj",
+        "projectUniqueName": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi.csproj",
         "projectName": "NewApi",
-        "projectPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi\\NewApi.csproj",
+        "projectPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi.csproj",
         "packagesPath": "C:\\Users\\christian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi\\obj\\",
+        "outputPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\christian\\AppData\\Roaming\\NuGet\\NuGet.Config"
