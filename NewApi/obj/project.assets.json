@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\CStutying\\CStutying.csproj",
-      "projectName": "CStutying",
-      "projectPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\CStutying\\CStutying.csproj",
+      "projectUniqueName": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi\\NewApi.csproj",
+      "projectName": "NewApi",
+      "projectPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi\\NewApi.csproj",
       "packagesPath": "C:\\Users\\christian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\CStutying\\obj\\",
+      "outputPath": "C:\\Users\\christian\\Documents\\AprendendoC#\\cstudying\\NewApi\\NewApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\christian\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -61,6 +61,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

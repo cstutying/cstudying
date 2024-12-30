@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "tUHYm52z25Yh5eAvMh5yCZXae1ic6emZ7GKLdT1gb2M=",
+  "Source": "NewApi",
+  "BasePath": "_content/NewApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
