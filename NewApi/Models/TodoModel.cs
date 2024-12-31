@@ -1,9 +1,0 @@
-namespace NewApi.Models;
-
-public class TodoModel
-{
-  public int Id { get; set; }
-  public string Title { get; set; }
-  public bool Done { get; set; }
-  public DateTime CreateAt { get; set; }
-}
