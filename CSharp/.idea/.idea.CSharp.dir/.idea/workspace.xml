@@ -19,10 +19,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/294078ecfce6fdb942ecfee089f09717de7a6fcfe5efd9fdb6f4f93c0fb4813/ActionMethodExecutor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2f2b1d92f1ffcf2dabd664473f8c9dafa6039595ac228ce4b75a0f1619c5991/AsyncTaskMethodBuilderT.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/53b0d531c06faf86bf2ae111a9a2dbce4c52a9153feb9966ade60289c71bf52/ExecutionContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6fa05d7dbf2e454ce78b261b422234da1f1ccedee678fd997e5ef4afe6df6e/ControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c794baab3518d05f8546334d672798d62c10be97c2de99a62b39b885a637/TaskContinuation.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2r2pdKUWNOVAlnUOtg9SHAWM6HF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,9 +34,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.CSharp: http.executor": "Debug",
+    ".NET Launch Settings Profile.CSharp: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true"
+    "XThreadsFramesViewSplitterKey": "0.50032574",
+    "com.codeium.enabled": "true",
+    "rider.code.cleanup.on.save": "true",
+    "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CSharp: http">
@@ -76,69 +84,12 @@
       <option name="presentableId" value="Default" />
       <updated>1735767112247</updated>
       <workItem from="1735767112689" duration="16835000" />
+      <workItem from="1735847438112" duration="16296000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Controllers/CategoryController.cs</url>
-          <line>82</line>
-          <properties documentPath="C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\Controllers\CategoryController.cs" containingFunctionPresentation="Method 'DeleteAsync'">
-            <startOffsets>
-              <option value="2006" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2097" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Controllers/CategoryController.cs</url>
-          <line>61</line>
-          <properties documentPath="C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\Controllers\CategoryController.cs" containingFunctionPresentation="Method 'PutAsync'">
-            <startOffsets>
-              <option value="1515" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1606" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Controllers/CategoryController.cs</url>
-          <line>23</line>
-          <properties documentPath="C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\Controllers\CategoryController.cs" containingFunctionPresentation="Method 'GetByIdAsync'">
-            <startOffsets>
-              <option value="590" />
-            </startOffsets>
-            <endOffsets>
-              <option value="681" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Controllers/CategoryController.cs</url>
-          <line>14</line>
-          <properties documentPath="C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\Controllers\CategoryController.cs" containingFunctionPresentation="Method 'GetAsync'">
-            <startOffsets>
-              <option value="335" />
-            </startOffsets>
-            <endOffsets>
-              <option value="391" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
