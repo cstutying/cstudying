@@ -36,7 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.CSharp: http.executor": "Run",
+    ".NET Launch Settings Profile.CSharp: http.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "XThreadsFramesViewSplitterKey": "0.50032574",
     "com.codeium.enabled": "true",
@@ -87,7 +87,7 @@
       <updated>1735767112247</updated>
       <workItem from="1735767112689" duration="16835000" />
       <workItem from="1735847438112" duration="18147000" />
-      <workItem from="1735925775359" duration="12628000" />
+      <workItem from="1735925775359" duration="19734000" />
     </task>
     <servers />
   </component>
