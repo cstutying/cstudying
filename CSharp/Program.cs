@@ -4,7 +4,7 @@ using CSharp.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder // WebAplicationBuilder
-  .Services // IServiceCollection
+  .Services // IServiceCollectionn
   .AddControllers()
   .ConfigureApiBehaviorOptions(options => { options.SuppressModelStateInvalidFilter = true; });
 
