@@ -12,4 +12,4 @@ public class AccountController : ControllerBase
     var token = tokenService.GenerateToken(null);
     return Ok(token);
   }
-}
+}3
