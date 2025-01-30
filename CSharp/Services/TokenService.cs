@@ -1,4 +1,5 @@
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 using CSharp.Models;
 using Microsoft.IdentityModel.Tokens;
@@ -13,6 +14,12 @@ public class TokenService
     var key = Encoding.ASCII.GetBytes(Configuration.JwtKey);
     var tokenDescriptor = new SecurityTokenDescriptor
     {
+      Subject = new ClaimsIdentity(new Claim[]
+      {
+        new(ClaimTypes.Name, "CSharp"), // vai ser usado como User.Identity.Name
+        new(ClaimTypes.Role, "admin"), // vai permitir o User.IsInRole("admin")
+        new("fruta", "banana")
+      }),
       Expires = DateTime.UtcNow.AddHours(8),
       SigningCredentials = new SigningCredentials(
         new SymmetricSecurityKey(key),
