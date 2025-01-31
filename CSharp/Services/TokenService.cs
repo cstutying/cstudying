@@ -16,7 +16,8 @@ public class TokenService
     {
       Subject = new ClaimsIdentity(new Claim[]
       {
-        new(ClaimTypes.Name, "CSharp"), // vai ser usado como User.Identity.Name
+        new(ClaimTypes.Name, "christianCsharp"), // vai ser usado como User.Identity.Name
+        new(ClaimTypes.Role, "user"), // vai permitir o User.IsInRole("user")
         new(ClaimTypes.Role, "admin"), // vai permitir o User.IsInRole("admin")
         new("fruta", "banana")
       }),
