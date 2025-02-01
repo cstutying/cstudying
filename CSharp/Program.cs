@@ -26,7 +26,7 @@ builder.Services.AddAuthentication(x =>
 });
 
 
-builder // WebAplicationBuilder
+builder // WebAplicationBuilde
   .Services // IServiceCollection
   .AddControllers()
   .ConfigureApiBehaviorOptions(options => { options.SuppressModelStateInvalidFilter = true; });

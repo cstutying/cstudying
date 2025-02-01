@@ -47,7 +47,7 @@
     "com.codeium.enabled": "true",
     "rider.code.cleanup.on.save": "true",
     "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CSharp: http">
@@ -113,6 +113,7 @@
       <workItem from="1738282708634" duration="57000" />
       <workItem from="1738282782981" duration="1877000" />
       <workItem from="1738339097973" duration="22865000" />
+      <workItem from="1738371431362" duration="105000" />
     </task>
     <servers />
   </component>
