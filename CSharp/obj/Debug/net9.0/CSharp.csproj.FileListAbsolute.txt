@@ -151,3 +151,4 @@ C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\obj\Debug\net9.0\
 C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\obj\Debug\net9.0\CSharp.genruntimeconfig.cache
 C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\obj\Debug\net9.0\ref\CSharp.dll
 C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\bin\Debug\net9.0\SecureIdentity.dll

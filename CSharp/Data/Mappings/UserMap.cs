@@ -11,17 +11,17 @@ namespace Blog.Data.Mappings
       // Tabela
       builder.ToTable("User");
 
-      
+
       // Chave Primária
       builder.HasKey(x => x.Id);
 
-      
+
       // Identity
       builder.Property(x => x.Id)
         .ValueGeneratedOnAdd()
         .UseIdentityColumn();
 
-      
+
       // Propriedades
       builder.Property(x => x.Name)
         .IsRequired()
@@ -51,14 +51,14 @@ namespace Blog.Data.Mappings
         .HasColumnName("Slug")
         .HasColumnType("VARCHAR")
         .HasMaxLength(80);
-      
-      
+
+
       // Indices
       builder
         .HasIndex(x => x.Slug, "IX_User_Slug")
         .IsUnique();
 
-      
+
       // Mapeamento do User com Role
       builder
         .HasMany(x => x.Roles)

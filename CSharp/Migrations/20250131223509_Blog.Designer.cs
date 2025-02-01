@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CSharp.Migrations
 {
     [DbContext(typeof(CSharpDataContext))]
-    [Migration("20250101221903_CreateDatabase")]
-    partial class CreateDatabase
+    [Migration("20250131223509_Blog")]
+    partial class Blog
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -151,7 +151,10 @@ namespace CSharp.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(160)
+                        .HasColumnType("VARCHAR")
+                        .HasColumnName("Email");
 
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
@@ -163,7 +166,10 @@ namespace CSharp.Migrations
                         .HasColumnName("Name");
 
                     b.Property<string>("PasswordHash")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("VARCHAR")
+                        .HasColumnName("PasswordHash");
 
                     b.Property<string>("Slug")
                         .IsRequired()

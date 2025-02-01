@@ -41,9 +41,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.CSharp: http.executor": "Run",
+    ".NET Launch Settings Profile.CSharp: http.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "XThreadsFramesViewSplitterKey": "0.50032574",
+    "XThreadsFramesViewSplitterKey": "0.275969",
     "com.codeium.enabled": "true",
     "rider.code.cleanup.on.save": "true",
     "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
@@ -112,7 +112,7 @@
       <workItem from="1738267414985" duration="12034000" />
       <workItem from="1738282708634" duration="57000" />
       <workItem from="1738282782981" duration="1877000" />
-      <workItem from="1738339097973" duration="13085000" />
+      <workItem from="1738339097973" duration="22865000" />
     </task>
     <servers />
   </component>
@@ -120,5 +120,24 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/AccountController.cs</url>
+          <line>62</line>
+          <properties documentPath="C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\Controllers\AccountController.cs" containingFunctionPresentation="Method 'Login'">
+            <startOffsets>
+              <option value="1518" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1542" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
