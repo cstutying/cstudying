@@ -39,17 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.CSharp: http.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "XThreadsFramesViewSplitterKey": "0.275969",
-    "com.codeium.enabled": "true",
-    "rider.code.cleanup.on.save": "true",
-    "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.CSharp: http.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.275969&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;rider.code.cleanup.on.save.profile&quot;: &quot;Built-in: Reformat Code&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CSharp: http">
     <configuration name="CSharp: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CSharp.csproj" />
@@ -114,6 +114,7 @@
       <workItem from="1738282782981" duration="1877000" />
       <workItem from="1738339097973" duration="22865000" />
       <workItem from="1738371431362" duration="737000" />
+      <workItem from="1738454278190" duration="3557000" />
     </task>
     <servers />
   </component>
@@ -121,24 +122,5 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Controllers/AccountController.cs</url>
-          <line>62</line>
-          <properties documentPath="C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\Controllers\AccountController.cs" containingFunctionPresentation="Method 'Login'">
-            <startOffsets>
-              <option value="1518" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1542" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
