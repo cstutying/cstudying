@@ -37,11 +37,22 @@ builder.Services.AddTransient<TokenService>();
 
 
 var app = builder.Build();
+Configuration.JwtKey = app.Configuration.GetValue<string>("JwKey");
+Configuration.ApiKeyName = app.Configuration.GetValue<string>("ApiKeyName");
+Configuration.ApiKey = app.Configuration.GetValue<string>("ApiKey");
+
+
+// INSTANCIA DA CLASSE SMTP CONFIGURATION (CONFIGURATION.CS)
+var smtp = new Configuration.SmtpConfiguration();
+app.Configuration.GetSection("Smtp").Bind(smtp);
+Configuration.Smtp = smtp;
 
 
 app.UseAuthorization();
 app.UseAuthentication();
 
+
 app.MapControllers();
+
 
 app.Run();
