@@ -69,4 +69,5 @@ void ConfigureServices(WebApplicationBuilder builder)
 {
   builder.Services.AddDbContext<CSharpDataContext>();
   builder.Services.AddTransient<TokenService>();
+  builder.Services.AddTransient<EmailService>();
 }
