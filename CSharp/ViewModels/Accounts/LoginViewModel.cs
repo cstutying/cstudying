@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace CSharp.ViewModels;
+namespace CSharp.ViewModels.Accounts;
 
 public class LoginViewModel
 {

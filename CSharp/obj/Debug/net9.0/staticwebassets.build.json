@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "RWnfEd7FSOCjj9yWPBubUQ+aJhaOIr4mkrrYvYiZy44=",
+  "Hash": "dgaRb4GUXS+8dKK7s2l6ZgYq2H6jsmDCLMZ2Ryecf78=",
   "Source": "CSharp",
   "BasePath": "_content/CSharp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CSharp\\wwwroot",
+      "Source": "CSharp",
+      "ContentRoot": "C:\\Users\\christian\\Documents\\AprendendoCSharp\\cstudying\\CSharp\\wwwroot\\",
+      "BasePath": "_content/CSharp",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

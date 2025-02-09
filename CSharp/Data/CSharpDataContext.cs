@@ -1,4 +1,3 @@
-using Blog.Data.Mappings;
 using CSharp.Data.Mappings;
 using CSharp.Models;
 using Microsoft.EntityFrameworkCore;

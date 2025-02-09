@@ -2,7 +2,7 @@ using CSharp.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Blog.Data.Mappings
+namespace CSharp.Data.Mappings
 {
   public class UserMap : IEntityTypeConfiguration<User>
   {
