@@ -126,7 +126,7 @@
       <workItem from="1738896644082" duration="914000" />
       <workItem from="1738940548783" duration="15099000" />
       <workItem from="1738970329180" duration="6665000" />
-      <workItem from="1739139802681" duration="2886000" />
+      <workItem from="1739139802681" duration="3695000" />
     </task>
     <servers />
   </component>
@@ -134,24 +134,5 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Controllers/AccountController.cs</url>
-          <line>73</line>
-          <properties documentPath="C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\Controllers\AccountController.cs" containingFunctionPresentation="Method 'Login'">
-            <startOffsets>
-              <option value="1834" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1858" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

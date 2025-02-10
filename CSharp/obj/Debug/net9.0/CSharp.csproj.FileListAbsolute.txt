@@ -1,5 +1,6 @@
 C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\bin\Debug\net9.0\appsettings.json
+C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\bin\Debug\net9.0\CSharp.staticwebassets.runtime.json
 C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\bin\Debug\net9.0\CSharp.staticwebassets.endpoints.json
 C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\bin\Debug\net9.0\CSharp.exe
 C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\bin\Debug\net9.0\CSharp.deps.json
@@ -152,4 +153,3 @@ C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\obj\Debug\net9.0\
 C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\obj\Debug\net9.0\CSharp.pdb
 C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\obj\Debug\net9.0\CSharp.genruntimeconfig.cache
 C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\obj\Debug\net9.0\ref\CSharp.dll
-C:\Users\christian\Documents\AprendendoCSharp\cstudying\CSharp\bin\Debug\net9.0\CSharp.staticwebassets.runtime.json
