@@ -1,5 +1,6 @@
 using System.ComponentModel;
 using System.Text;
+using System.Text.Json.Serialization;
 using CSharp;
 using CSharp.Data;
 using CSharp.Services;
@@ -16,10 +17,10 @@ var app = builder.Build();
 LoadConfiguration(app);
 
 
-app.UseAuthorization();
 app.UseAuthentication();
-app.UseStaticFiles();
+app.UseAuthorization();
 app.MapControllers();
+app.UseStaticFiles();
 app.Run();
 
 
@@ -62,7 +63,12 @@ void ConfigureMvc(WebApplicationBuilder builder)
   builder // WebAplicationBuilder
     .Services // IServiceCollection
     .AddControllers()
-    .ConfigureApiBehaviorOptions(options => { options.SuppressModelStateInvalidFilter = true; });
+    .ConfigureApiBehaviorOptions(options => { options.SuppressModelStateInvalidFilter = true; })
+    .AddJsonOptions(x =>
+    {
+      x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+      x.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingDefault;
+    });
 }
 
 
