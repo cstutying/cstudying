@@ -60,7 +60,7 @@ void ConfigureAuthentication(WebApplicationBuilder builder)
 
 void ConfigureMvc(WebApplicationBuilder builder)
 {
-  builder // WebAplicationBuilder
+  builder // WebAplicationBuilde
     .Services // IServiceCollection
     .AddControllers()
     .ConfigureApiBehaviorOptions(options => { options.SuppressModelStateInvalidFilter = true; })
