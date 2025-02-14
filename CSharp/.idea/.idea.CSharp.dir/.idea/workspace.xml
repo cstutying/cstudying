@@ -10,18 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8751afe6-96b7-48c7-9173-de45f20220dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharp.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharp.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Folder.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Folder.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/ref/CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/refint/CSharp.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +59,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f11445d02251979ba5e24139358c5e504719add8c58b3327f5f95bb9ecac6ed/HttpGetAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/christian/Documents/AprendendoCSharp/cstudying/CSharp/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/christian/Documents/AprendendoCSharp/cstudying/CSharp/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/christian/Documents/AprendendoCSharp/cstudying/CSharp/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -94,7 +81,7 @@
     "git-widget-placeholder": "main",
     "rider.code.cleanup.on.save": "true",
     "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.VCS"
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CSharp: http">
@@ -185,7 +172,25 @@
       <workItem from="1739505626309" duration="100000" />
       <workItem from="1739505747566" duration="669000" />
       <workItem from="1739506441657" duration="823000" />
+      <workItem from="1739507294407" duration="1165000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <option name="closed" value="true" />
+      <created>1739507513434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739507513434</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".">
+      <option name="closed" value="true" />
+      <created>1739507522471</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739507522471</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -203,5 +208,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
