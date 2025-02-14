@@ -1,10 +1,13 @@
+using System.Collections.Immutable;
 using System.ComponentModel;
+using System.IO.Compression;
 using System.Text;
 using System.Text.Json.Serialization;
 using CSharp;
 using CSharp.Data;
 using CSharp.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +22,7 @@ LoadConfiguration(app);
 
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseResponseCompression();
 app.MapControllers();
 app.UseStaticFiles();
 app.Run();
@@ -61,6 +65,15 @@ void ConfigureAuthentication(WebApplicationBuilder builder)
 void ConfigureMvc(WebApplicationBuilder builder)
 {
   builder.Services.AddMemoryCache();
+  builder.Services.AddResponseCompression(options =>
+  {
+    // options.Providers.Add<BrotliCompressionProvider>();
+    options.Providers.Add<GzipCompressionProvider>();
+    // options.Providers.Add<CustomCompressionProvider>();
+  });
+  builder.Services.Configure<GzipCompressionProviderOptions>(options => { options.Level = CompressionLevel.Optimal; });
+
+
   builder // WebAplicationBuilde
     .Services // IServiceCollection
     .AddControllers()
