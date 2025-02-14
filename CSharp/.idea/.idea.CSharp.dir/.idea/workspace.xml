@@ -8,7 +8,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8751afe6-96b7-48c7-9173-de45f20220dc" name="Changes" comment="" />
+    <list default="true" id="8751afe6-96b7-48c7-9173-de45f20220dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharp.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharp.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Folder.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Folder.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/CSharp.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/ref/CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/refint/CSharp.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +31,29 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;searchQuery&quot;: &quot; &quot;,
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;cstutying&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;searchQuery&quot;: &quot; &quot;,
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cstutying&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cstutying/cstudying.git&quot;,
+    &quot;accountId&quot;: &quot;d807a55f-7a4d-4ee6-8e16-15315b847cf8&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/294078ecfce6fdb942ecfee089f09717de7a6fcfe5efd9fdb6f4f93c0fb4813/ActionMethodExecutor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2f2b1d92f1ffcf2dabd664473f8c9dafa6039595ac228ce4b75a0f1619c5991/AsyncTaskMethodBuilderT.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,6 +69,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c794baab3518d05f8546334d672798d62c10be97c2de99a62b39b885a637/TaskContinuation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e75a5575ba872c8ea754c015cb363850e6c661f39569712d5b74aaca67263c/String.Manipulation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f11445d02251979ba5e24139358c5e504719add8c58b3327f5f95bb9ecac6ed/HttpGetAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/christian/Documents/AprendendoCSharp/cstudying/CSharp/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/christian/Documents/AprendendoCSharp/cstudying/CSharp/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/christian/Documents/AprendendoCSharp/cstudying/CSharp/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -41,18 +81,22 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.CSharp: http.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.27639753&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;rider.code.cleanup.on.save.profile&quot;: &quot;Built-in: Reformat Code&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.CSharp: http.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "ToolWindow.Version Control.ShowToolbar": "false",
+    "XThreadsFramesViewSplitterKey": "0.27639753",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "rider.code.cleanup.on.save": "true",
+    "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CSharp: http">
     <configuration name="CSharp: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CSharp.csproj" />
@@ -132,12 +176,31 @@
       <workItem from="1739208392943" duration="5568000" />
       <workItem from="1739302281213" duration="3999000" />
       <workItem from="1739419827100" duration="64000" />
-      <workItem from="1739477139135" duration="10329000" />
+      <workItem from="1739477139135" duration="12868000" />
+      <workItem from="1739505001377" duration="94000" />
+      <workItem from="1739505115870" duration="63000" />
+      <workItem from="1739505198869" duration="61000" />
+      <workItem from="1739505282895" duration="143000" />
+      <workItem from="1739505445422" duration="167000" />
+      <workItem from="1739505626309" duration="100000" />
+      <workItem from="1739505747566" duration="669000" />
+      <workItem from="1739506441657" duration="823000" />
     </task>
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
