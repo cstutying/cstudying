@@ -1,0 +1,17 @@
+.primeira-classe {
+ background-color: #ccc;
+ font-size: 12px;
+ font-weight: 300px;
+}
+
+#primeiro-id {
+ background-color: #cc4;
+ font-size: 12px;
+ font-weight: 300px;
+}
+h1 {
+ background-color: aliceblue;
+}
+p {
+ background-color: #678;
+}
