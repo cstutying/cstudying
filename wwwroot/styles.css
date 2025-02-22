@@ -1,5 +1,9 @@
+* {
+ background-color: #0d1117;
+}
 .conteudo {
  border: 1px solid black;
  margin: 10%;
  padding: 5%;
+ color: #fff;
 }
