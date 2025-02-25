@@ -21,6 +21,8 @@ h1 {
  display: grid;
 }
 .grid-colums {
- grid-template-columns: 1fr 1fr 1fr;
- background-attachment: fixed;
+ grid-template-columns: 1fr 1fr;
+}
+.grid-rows {
+ grid-template-rows: 50px 50px 50px;
 }
