@@ -19,10 +19,10 @@ let result = 0;
 
 try {
  if (result === 0) {
-  throw new Error('O Valor é igual a zero.');
+  throw new Error("O Valor é igual a zero.");
  }
 } catch (error) {
  console.log(error);
 } finally {
- console.log('Fim');
+ console.log("Fim");
 }
