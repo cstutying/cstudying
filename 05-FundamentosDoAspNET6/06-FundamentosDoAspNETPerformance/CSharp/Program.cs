@@ -46,7 +46,7 @@ void LoadConfiguration(WebApplication app)
   Configuration.ApiKey = app.Configuration.GetValue<string>("ApiKey");
 
 
-// INSTANCIA DA CLASSE SMTP CONFIGURATION (CONFIGURATION.CS)
+  // INSTANCIA DA CLASSE SMTP CONFIGURATION (CONFIGURATION.CS)
   var smtp = new Configuration.SmtpConfiguration();
   app.Configuration.GetSection("Smtp").Bind(smtp);
   Configuration.Smtp = smtp;
@@ -103,7 +103,7 @@ void ConfigureServices(WebApplicationBuilder builder)
   builder.Services.AddDbContext<CSharpDataContext>(
     options =>
   options.UseSqlServer(connectionString));
-  
+
   builder.Services.AddTransient<TokenService>();
   builder.Services.AddTransient<EmailService>();
 }
