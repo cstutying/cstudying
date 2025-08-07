@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dgaRb4GUXS+8dKK7s2l6ZgYq2H6jsmDCLMZ2Ryecf78=",
+  "Hash": "8TI8WH9uPR6y2S4FqEBtlaogDL9/Gr7xtwbjM2ZnvkM=",
   "Source": "CSharp",
   "BasePath": "_content/CSharp",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "CSharp\\wwwroot",
       "Source": "CSharp",
-      "ContentRoot": "C:\\Users\\christian\\Documents\\AprendendoCSharp\\cstudying\\CSharp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\christian\\Documents\\AprendendoCSharp\\cstudying\\05-FundamentosDoAspNET6\\06-FundamentosDoAspNETPerformance\\CSharp\\wwwroot\\",
       "BasePath": "_content/CSharp",
       "Pattern": "**"
     }
